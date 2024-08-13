@@ -1,0 +1,74 @@
+.diceRoller {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.selectedDice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.selectedDie {
+  background-color: #e94560;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.removeDie {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.rollButton, .clearButton {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rollButton {
+  background-color: #0f3460;
+  color: #fff;
+}
+
+.rollButton:hover {
+  background-color: #16213e;
+}
+
+.rollButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.clearButton {
+  background-color: #e94560;
+  color: #fff;
+}
+
+.clearButton:hover {
+  background-color: #c73e54;
+}

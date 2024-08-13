@@ -1,0 +1,44 @@
+.rollResult {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.resultTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #e94560;
+}
+
+.resultGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.die {
+  background-color: #0f3460;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e94560;
+}
+
+.total span {
+  font-size: 1.5rem;
+  color: #fff;
+}
